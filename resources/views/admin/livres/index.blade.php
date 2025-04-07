@@ -6,7 +6,7 @@
         <a href="{{ route('admin.creatlivres') }}" style="display: inline-block; background-color: #FFC0CB; color: white; padding: 10px 20px; border-radius: 30px; text-decoration: none; margin-bottom: 20px; border: none; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#FFB6C1'" onmouseout="this.style.backgroundColor='#FFC0CB'">Ajouter un Livre</a>
         
         <!-- Formulaire de recherche -->
-        <form action="{{ route('livres.index') }}" method="GET" style="margin-bottom: 25px;">
+        <form action="{{ route('admin.indexlivres') }}" method="GET" style="margin-bottom: 25px;">
             <div style="display: flex;">
                 <input type="text" name="search" style="flex: 1; padding: 12px; border: 2px solid #FFE4E1; border-radius: 30px 0 0 30px; outline: none; transition: border 0.3s ease;" placeholder="Rechercher un livre" aria-label="Rechercher un livre" onmouseover="this.style.borderColor='#FFC0CB'" onmouseout="this.style.borderColor='#FFE4E1'">
                 <button type="submit" style="background-color: #FFC0CB; color: white; border: none; padding: 12px 25px; border-radius: 0 30px 30px 0; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#FFB6C1'" onmouseout="this.style.backgroundColor='#FFC0CB'">Rechercher</button>

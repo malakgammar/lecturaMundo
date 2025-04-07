@@ -83,7 +83,7 @@ class LivreController extends Controller
  
         $livre->update($data); 
  
-        return redirect()->route('admin.livres')->with('success', 'Livre mis à jour avec succès.'); 
+        return redirect()->route('admin.updatelivres')->with('success', 'Livre mis à jour avec succès.'); 
     } 
  
     public function destroy(Livre $livre) 
